@@ -1,0 +1,365 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+}
+table {
+    text-align:left;
+}
+input, select, textarea {
+    font-size: 12px!important;
+}
+img, a {
+	border:none;
+	outline:none;
+}
+
+.gmr_logo {
+	padding:1px 0px 9px 15px;
+}
+
+.top_helpline_bg {
+	background:url(../../img/admin_images/top_helpline_bg.jpg) no-repeat left top;
+	width:142px;
+	height:61px;
+	padding:5px 10px;
+}
+
+.arial_14px_bold_red {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#e91d24;
+}
+
+.gmr_navigation {
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.gmr_navigation ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	float:right;
+}
+
+.gmr_navigation ul li {
+	float:left;
+	padding:0px 7px;
+}
+
+.gmr_navigation a {
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	color:#000;
+}
+
+.gmr_navigation a:hover {
+	border-bottom:1px dotted #000000;
+	color:#575656;
+}
+
+.arial_12px_lightgray {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#ececec;
+}
+
+a.arial_11px_lightghray_link {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#ececec;
+	text-decoration:none;
+}
+
+a.arial_11px_lightghray_link:hover {
+	border-bottom:1px dotted #ffffff;
+	color:#FFFFFF;
+}
+
+.gmr_footer {
+	background:url(../../img/admin_images/gmr_footer_bg.jpg) repeat-x left top;
+	height:42px;
+	padding:10px;
+}
+
+.padding_10px_9px {
+	padding:10px 9px;
+}
+.padding_10px_20px {
+	padding:10px 20px;
+}
+
+.border-left-1px-cfcfcf {
+	border-left:1px solid #cfcfcf;
+}
+
+.border-right-1px-cfcfcf {
+	border-right:1px solid #cfcfcf;
+}
+
+.paddingl-4-paddingt-10 {
+	padding:10px 0px 0px 4px;
+}
+
+.width_150px {
+	width:150px;
+}
+
+.mobile_numbe_bg_hp {
+	background:url(../../img/admin_images/phone_number_bg_homepage.jpg) no-repeat left top;
+	border:1px solid #7f9db9;
+	padding-left:30px;
+	width:120px;
+}
+
+.verdana_11px_black {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+}
+
+.tahoma_11px_red_link {
+	font-family:Tahoma;
+	font-size:11px;
+	color:#5d8f00;
+	text-decoration:none;
+}
+
+.tahoma_11px_red_link:hover {
+	border-bottom:1px dotted #5d8f00;
+}
+
+.arial_17px_white {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:17px;
+	color:#FFFFFF;
+}
+
+.arial_16px_bold_white {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.padding_20px {
+	padding:20px;
+}
+
+.main_heading {
+	font-family:AlternateGothicNo2Regular;
+	font-size:30px;
+	color:#000000;
+}
+
+.min_height_400px {
+	min-height:400px;
+}
+
+.box_border {
+	border:1px solid #e4e4e4;
+}
+
+.box_white_heading {
+	background:url(../../img/admin_images/white_box_bd.jpg) repeat-x left top;
+	padding-right:9px;
+	padding-left:14px;
+}
+
+.white_box_title {
+	font-family:AlternateGothicNo2Regular;
+	font-size:21px;
+	color:#000000;
+}
+
+.box_border_bottom {
+	border-bottom:1px solid #e4e4e4;
+}
+
+.box_border_left {
+	border-left:1px solid #e4e4e4;
+}
+
+.box_border_right {
+	border-right:1px solid #e4e4e4;
+}
+
+.box_border_top {
+	border-top:1px solid #e4e4e4;
+}
+
+.padding_left_14px {
+	padding-left:14px;
+}
+
+.padding_right_15px {
+	padding-right:15px;
+}
+
+strong.red_13px {
+	font-size:13px;
+	color:#e91d24;
+}
+
+.box_black_heading {
+	background:url(../../img/admin_images/box_black_heading.jpg) repeat-x left top;
+	padding-right:9px;
+	padding-left:14px;
+}
+
+.black_box_title {
+	font-family:AlternateGothicNo2Regular;
+	font-size:21px;
+	color:#ffffff;
+}
+
+.padding_left_10px {
+	padding:0px 10px;
+}
+
+.background_gray {
+	background-color:#f2f1f1;
+	font-weight:bold;
+	color:#000000;
+}
+
+.box_red_heading {
+	background:url(../../img/admin_images/box_red_heading.jpg) repeat-x left top;
+	padding-right:9px;
+	padding-left:14px;
+}
+
+.red_box_title {
+	font-family:AlternateGothicNo2Regular;
+	font-size:21px;
+	color:#ffffff;
+}
+
+.recharge_amount_bg {
+	background:url(../../img/admin_images/recharge_amount_bg.jpg) no-repeat left top;
+	width:366px;
+}
+
+.recharge_input {
+	padding:4px 4px;
+	width:170px;
+}
+
+.arial_15px_bold_e91d24 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	color:#e91d24;
+}
+
+.recharge_amout_input {
+	width:190px;
+	height:32px;
+	padding-left:10px;
+}
+
+.arial_13px_bold_gray {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#000;
+}
+
+.arial_14px_bold_black {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+}
+
+.white_font_color {
+	color:#FFFFFF;
+}
+
+.headermenu{
+background:url(../../img/admin_images/sec_nav_bg.jpg) repeat-x left top;
+
+}
+
+.msg{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:bold;
+    color:red;
+}
+.error-message{color:#A1000A;}
+
+.pagination span:hover a {
+    color: #333;
+}
+
+.pagination span a {
+    text-decoration: none;
+    color: #333333;
+    padding: 7px 10px;
+    background-color: #eaeaea;
+    border: 1px solid #cccccc;
+    color: #000000;
+    cursor: pointer;
+}
+
+.pagination span a:hover{
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    color: #333;
+}
+
+.pagination span.current {
+    padding: 7px 10px;
+    background-color: #D9161C;
+    border: 1px solid #cccccc;
+    font-weight: bold;
+    color: #fff;
+}
+
+.sorting a{
+    color: #000;
+    text-decoration:none;
+}
+
+.sorting a:hover{
+    color: #000;
+    text-decoration:underline;
+}
+
+.distributorfilter{
+    background:url(../../img/images/text_jad.jpg) no-repeat 3px 4px;
+    padding-left: 30px;
+    background-color: #fff;
+    text-transform: uppercase;
+}
+
+.agentfilter{
+/*    padding-left: 30px;*/
+/*    background:url(../../img/images/text_gmr.jpg) no-repeat 3px 4px;*/
+    background-color: #fff;
+    text-transform: uppercase;
+}
+.reconciliationbuttontoggle{
+    display: none;
+    background-color: #EAEAEA;
+    color: #000000;
+/*    height: 15px;*/
+    text-align: center;
+    vertical-align: middle;
+    padding: 5px 5px;
+}
+.buttontoggle{
+    float: right;
+}
+.background_white{
+    background-color: #FFFFFF;
+}
