@@ -1,0 +1,28 @@
+<?php
+class Dealer_edit_model extends CI_Model 
+{	
+	function _construct()
+	{
+		  // Call the Model constructor
+		  parent::_construct();
+	}
+	public	function update($Dealername,$Parent_id,$Address,$Pin,$State,$City,$MobNo,$LandNo,$RetType,$Email,$Scheme_id,$Scheme_amt,$User_id)
+	{
+		$this->load->library('common');
+		$ip = $this->common->getRealIpAddr();
+		$date = $this->common->getDate();				
+		$str_query = "update tblusers  set business_name=?,parent_id=?,postal_address=?,pincode=?,state_id=?,city_id=?,mobile_no=?, landline=?,retailer_type_id=?,emailid=?,edit_date=?,ipaddress=?,scheme_id=?,scheme_amount=? where user_id=?";
+		$result = $this->db->query($str_query,array($Dealername,$Parent_id,$Address,$Pin,$State,$City,$MobNo,$LandNo,$RetType,$Email,$date,$ip,$Scheme_id,$Scheme_amt,$User_id));		
+		if($result > 0)
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}		
+	}
+	
+}
+
+?>
